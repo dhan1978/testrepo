@@ -1,0 +1,11 @@
+activemq:
+  broker:
+    url: ssl://dhanazservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=a7QN2KCWaVolVbvb6vyBhnCII5Ons1o4M+ASbGzOtWI=
+    user: 
+    password:
+  queue:
+    name: crmourya.QUEUE
+
+spring:
+  activemq:
+    in-memory: false

@@ -1,0 +1,18 @@
+activemq:
+  broker:
+    url: Endpoint=sb://dhanabservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=iM7QrQrd5SLQMV9xWNKm7ZlP8FVmWT2RX+ASbCn8slM=
+    host: dhanabservicebus.servicebus.windows.net
+    user: 
+    password:  
+  queue:
+    name: crmourya.QUEUE
+#spring.jms.servicebus.connection-string=<ServiceBusNamespaceConnectionString>
+#spring.jms.servicebus.pricing-tier=<ServiceBusPricingTier>
+spring:
+  activemq:
+    in-memory: false
+   # broker-url: sb://dhanabservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=JX72YgC/9X//dQl/D7M8RwBtCWg6DTe2b+ASbNRmHaI=
+  jms:
+    servicebus:  
+     #  connection-string: sb://dhanabservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=JX72YgC/9X//dQl/D7M8RwBtCWg6DTe2b+ASbNRmHaI=
+       pricing-tier: basic

@@ -1,0 +1,11 @@
+rabbitmq:
+  broker:
+    url: https://b-20cf9ced-8f1a-4e15-918b-35610adaf498.mq.ap-southeast-2.amazonaws.com
+    user: crmouryaRab
+    password: Dhanuki@1234
+  queue:
+    name: crmouryaQUEUE
+    
+spring:
+  rabbitmq:
+    in-memory: false

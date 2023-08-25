@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+activemq:
+  broker:
+    url: ssl://52.63.81.245:61617
+    user: crmouryaAmq
+    password: Dhanuki@1234
+  queue:
+    name: crmourya.QUEUE
+
+spring:
+  activemq:
+    in-memory: false

@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+activemq:
+  broker:
+    url: sb://dhanazservicebus.servicebus.windows.net/;SharedAccessKeyName=test;SharedAccessKey=iC2dFcN656335zdRrZTg5f4yKs8K5Vjif+ASbOSFr/4=
+    user: 
+    password: 
+  queue:
+    name: crmourya.QUEUE
+
+spring:
+  activemq:
+    in-memory: false
